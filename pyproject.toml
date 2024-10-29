@@ -1,0 +1,16 @@
+[project]
+name = "oss-files-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "oss2>=2.19.0",
+    "pyside6>=6.8.0.2",
+    "typing-extensions>=4.12.2",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "nuitka>=2.4.11",
+]
