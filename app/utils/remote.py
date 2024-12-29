@@ -167,4 +167,5 @@ class OSSManager(RemoteFileManager):
             "GET",
             key=remote_path,
             expires=expires,
+            slash_safe=True,
         )
